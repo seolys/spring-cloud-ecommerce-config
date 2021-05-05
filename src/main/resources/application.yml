@@ -8,4 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: file:///Users/seol/IdeaProjects/spring-cloud-ecommerce/git-configuration-yaml
+#          uri: file:///Users/seol/IdeaProjects/spring-cloud-ecommerce/git-configuration-yaml
+          uri: https://github.com/seolys/spring-cloud-ecommerce-config-yaml
+#          username: # remote repository가 private일때.
+#          password: # remote repository가 private일때.
