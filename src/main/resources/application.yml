@@ -6,6 +6,11 @@ spring:
     name: config-service
   profiles:
     active: native
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
   cloud:
     config:
       server:
@@ -16,3 +21,9 @@ spring:
           uri: https://github.com/seolys/spring-cloud-ecommerce-config-yaml # [remote git]
 #          username: # [remote git] remote repository가 private일때.
 #          password: # [remote git] remote repository가 private일때.
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, busrefresh
