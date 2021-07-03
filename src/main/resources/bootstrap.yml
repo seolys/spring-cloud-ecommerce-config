@@ -1,6 +1,7 @@
 encrypt:
 #  key: seolysdjfioweqjivosaidofjasodf15615 # 단방향 암호화 Key
   key-store: # 비대칭 Key 정보
-    location: file://${user.home}/IdeaProjects/spring-cloud-ecommerce/keystore/apiEncryptionKey.jks
+#    location: file://${user.home}/IdeaProjects/spring-cloud-ecommerce/keystore/apiEncryptionKey.jks
+    location: file:/apiEncryptionKey.jks
     password: test1234
     alias: apiEncryptionKey

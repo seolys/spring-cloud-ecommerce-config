@@ -14,8 +14,8 @@ spring:
   cloud:
     config:
       server:
-        native:
-          search-locations: file://${user.home}/IdeaProjects/spring-cloud-ecommerce/native-file-repo # [native file system]
+#        native:
+#          search-locations: file://${user.home}/IdeaProjects/spring-cloud-ecommerce/native-file-repo # [native file system]
         git:
 #          uri: file:///Users/seol/IdeaProjects/spring-cloud-ecommerce/git-configuration-yaml # [local git]
           uri: https://github.com/seolys/spring-cloud-ecommerce-config-yaml # [remote git]
